@@ -1,0 +1,42 @@
+TARGETNAME=newbp
+TARGETPATH=..\bin
+TARGETTYPE=DRIVER
+TARGETLIBS=..\lib\*\vmx.lib ..\lib\*\svm.lib 
+INCLUDES=.; ..\vmx;..\svm 
+SOURCES=\
+    newbp.c \
+    hvm.c \
+    portio.c \
+    comprint.c \
+    hypercalls.c \
+    traps.c \
+    interrupts.c \
+    common.c \
+    paging.c \
+    snprintf.c \
+    chicken.c \
+    dbgclient.c
+
+
+AMD64_SOURCES=\
+    msr.asm \
+    svm-asm.asm \
+    vmx-asm.asm \
+    common-asm.asm \
+    regs.asm \
+    cpuid.asm \
+    intstubs.asm    
+
+
+
+I386_SOURCES=\
+    msr.asm \
+    vmx-asm.asm \
+    svm-asm.asm \
+    common-asm.asm \
+    regs.asm \
+    cpuid.asm \
+    intstubs.asm 
+
+
+

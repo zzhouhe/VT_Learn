@@ -1,0 +1,14 @@
+TARGETNAME=vmx
+TARGETPATH=..\lib
+TARGETTYPE=DRIVER_LIBRARY
+INCLUDES= .; \
+          ..\svm; \
+          ..\common; 
+SOURCES=\
+    vmx.c \
+    vmxtraps.c \
+    vmxdebug.c
+
+
+
+

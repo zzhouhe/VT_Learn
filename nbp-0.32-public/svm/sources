@@ -1,0 +1,13 @@
+TARGETNAME=svm
+TARGETPATH=..\lib
+TARGETTYPE=DRIVER_LIBRARY
+INCLUDES= .; \
+          ..\vmx; \
+          ..\common; 
+SOURCES=\
+    svm.c \
+    svmtraps.c 
+
+
+
+
