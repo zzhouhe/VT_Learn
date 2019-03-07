@@ -1,0 +1,10 @@
+TARGETNAME=vt_x86
+TARGETTYPE=DRIVER
+
+SOURCES=entry.c \
+        vtsystem.c  \
+        exithandler.c   \
+
+
+I386_SOURCES=i386\vtasm.asm
+
