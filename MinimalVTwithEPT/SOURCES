@@ -1,0 +1,11 @@
+TARGETNAME=vt_x86_EPT
+TARGETTYPE=DRIVER
+
+SOURCES=entry.c \
+        vtsystem.c  \
+        exithandler.c   \
+        ept.c
+
+
+I386_SOURCES=i386\vtasm.asm
+
