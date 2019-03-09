@@ -1,9 +1,0 @@
-DIRS= \
-     vmx \
-     svm \     
-     common  
-    
-
-     
-
- 
